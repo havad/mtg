@@ -1,0 +1,20 @@
+{ 
+    layout: 'normal',
+  name: 'Adorable Kitten',
+  manaCost: '{W}',
+  cmc: 1,
+  colors: [ 'White' ],
+  type: 'Host Creature — Cat',
+  types: [ 'Host', 'Creature' ],
+  subtypes: [ 'Cat' ],
+  text: 'When this creature enters the battlefield, roll a six-sided die. You gain life equal to the result.',
+  power: '1',
+  toughness: '1',
+  imageName: 'adorable kitten',
+  rulings:
+   [ { date: '2018-01-19',
+       text: 'Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.' } ],
+  printings: [ 'UST' ],
+  legalities: [ { format: 'Un-Sets', legality: 'Legal' } ],
+  colorIdentity: [ 'W' ] 
+}
